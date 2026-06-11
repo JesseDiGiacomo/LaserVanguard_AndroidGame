@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Remix: Batalha Espacial Retro</string>
+    <string name="title_activity_main">Remix: Batalha Espacial Retro</string>
+    <string name="package_name">com.batalha.espacial.retro</string>
+    <string name="custom_url_scheme">com.batalha.espacial.retro</string>
+</resources>

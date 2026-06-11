@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Batalha Espacial Retro",
+  "description": "Um jogo clássico shoot \u0027em up de rolagem vertical com geração procedural de fases, chefes imponentes, dificuldade dinâmica e melhorias permanentes de habilidades.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
