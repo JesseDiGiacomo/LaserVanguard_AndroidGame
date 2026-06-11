@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade | Remix: Batalha Espacial Retro</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-color: #3b82f6;
+            --accent-glow: rgba(59, 130, 246, 0.5);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --border-color: #334155;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--text-primary);
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #60a5fa, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .app-meta {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            margin-bottom: 5px;
+        }
+
+        .last-updated {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            margin-top: 0;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 12px;
+        }
+
+        p, li {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .lang-btn {
+            background: transparent;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn.active, .lang-btn:hover {
+            background-color: var(--accent-color);
+            color: var(--text-primary);
+            box-shadow: 0 0 12px var(--accent-glow);
+        }
+
+        [lang="en"] {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <button class="lang-btn active" onclick="switchLang('pt')">Português</button>
+            <button class="lang-btn" onclick="switchLang('en')">English</button>
+        </div>
+
+        <!-- VERSÃO EM PORTUGUÊS -->
+        <div id="content-pt" lang="pt">
+            <header>
+                <h1>Política de Privacidade</h1>
+                <div class="app-meta">Remix: Batalha Espacial Retro</div>
+                <div class="app-meta">ID do Aplicativo: com.silvajesse.batalhaespacial</div>
+                <div class="last-updated">Última atualização: Junho de 2026</div>
+            </header>
+
+            <section>
+                <h2>1. Introdução</h2>
+                <p>Nós valorizamos a sua privacidade. Esta política de privacidade descreve como o jogo <strong>Remix: Batalha Espacial Retro</strong> lida com informações e dados coletados dos usuários.</p>
+            </section>
+
+            <section>
+                <h2>2. Coleta de Informações</h2>
+                <p>O aplicativo foi desenvolvido de forma a respeitar a sua privacidade:</p>
+                <ul>
+                    <li><strong>Dados Pessoais:</strong> Não solicitamos, coletamos ou armazenamos dados de identificação pessoal (como nome, e-mail, número de telefone ou endereço).</li>
+                    <li><strong>Dados do Dispositivo:</strong> O jogo pode processar informações técnicas básicas do dispositivo para garantir o correto funcionamento e renderização (como resolução de tela, modelo do aparelho e versão do sistema operacional). Esses dados são processados localmente e não são associados à sua identidade.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Integração com Inteligência Artificial (Gemini API)</h2>
+                <p>O aplicativo utiliza recursos de inteligência artificial fornecidos pela API do Google Gemini. Quando você utiliza esses recursos interativos:</p>
+                <ul>
+                    <li>Os textos, comandos ou inputs enviados para interações são transmitidos de forma segura para os servidores do Google para fins de processamento.</li>
+                    <li>Esses dados são tratados de acordo com a Política de Privacidade e os Termos de Serviço da API do Google Gemini.</li>
+                    <li>Nenhuma informação sensível do dispositivo ou dado de identificação pessoal é transmitido ou associado a essas requisições.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Serviços de Terceiros</h2>
+                <p>O jogo é distribuído através da Google Play Store (e/ou Apple App Store). Essas plataformas podem coletar dados de forma independente, tais como estatísticas de download, relatórios de falhas (crash reports) e desempenho, sujeitos às suas próprias políticas de privacidade.</p>
+            </section>
+
+            <section>
+                <h2>5. Permissões do Dispositivo</h2>
+                <p>O jogo pode solicitar permissões básicas de hardware para garantir a jogabilidade (como controle de vibração/haptic feedback e orientação de tela). Nenhuma permissão de acesso a dados privados (como contatos, câmera, fotos ou localização) é solicitada ou utilizada.</p>
+            </section>
+
+            <section>
+                <h2>6. Alterações nesta Política</h2>
+                <p>Podemos atualizar nossa Política de Privacidade periodicamente. É recomendável revisar esta página regularmente para verificar qualquer alteração. As mudanças entram em vigor imediatamente após serem publicadas nesta página.</p>
+            </section>
+
+            <section>
+                <h2>7. Contato</h2>
+                <p>Se você tiver alguma dúvida ou sugestão sobre esta Política de Privacidade, não hesite em entrar em contato através do e-mail de suporte cadastrado na loja de aplicativos ou abrindo uma issue em nosso repositório oficial.</p>
+            </section>
+        </div>
+
+        <!-- ENGLISH VERSION -->
+        <div id="content-en" lang="en">
+            <header>
+                <h1>Privacy Policy</h1>
+                <div class="app-meta">Remix: Batalha Espacial Retro</div>
+                <div class="app-meta">App ID: com.silvajesse.batalhaespacial</div>
+                <div class="last-updated">Last Updated: June 2026</div>
+            </header>
+
+            <section>
+                <h2>1. Introduction</h2>
+                <p>We value your privacy. This privacy policy describes how the game <strong>Remix: Batalha Espacial Retro</strong> handles information and data collected from users.</p>
+            </section>
+
+            <section>
+                <h2>2. Information Collection</h2>
+                <p>The application is built with your privacy in mind:</p>
+                <ul>
+                    <li><strong>Personal Data:</strong> We do not request, collect, or store any personally identifiable information (such as name, email, phone number, or address).</li>
+                    <li><strong>Device Data:</strong> The game may process basic technical device information to ensure proper functioning and rendering (such as screen resolution, device model, and operating system version). This data is processed locally and is not associated with your identity.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Artificial Intelligence Integration (Gemini API)</h2>
+                <p>The application utilizes artificial intelligence features provided by the Google Gemini API. When you use these interactive features:</p>
+                <ul>
+                    <li>Text, commands, or inputs sent for interactions are transmitted securely to Google servers for processing.</li>
+                    <li>This data is treated in accordance with the Google Gemini API Terms of Service and Privacy Policy.</li>
+                    <li>No sensitive device information or personally identifiable data is transmitted or associated with these requests.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Third-Party Services</h2>
+                <p>The game is distributed through the Google Play Store (and/or Apple App Store). These platforms may independently collect data, such as download statistics, crash reports, and performance metrics, subject to their own privacy policies.</p>
+            </section>
+
+            <section>
+                <h2>5. Device Permissions</h2>
+                <p>The game may request basic hardware permissions to ensure gameplay features (such as haptic feedback/vibration control and screen orientation). No permissions to access private data (such as contacts, camera, photos, or location) are requested or used.</p>
+            </section>
+
+            <section>
+                <h2>6. Changes to This Policy</h2>
+                <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+            </section>
+
+            <section>
+                <h2>7. Contact Us</h2>
+                <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us via the support email registered in the app store or by opening an issue on our official repository.</p>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Jesse DiGiacomo. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            const ptContent = document.getElementById('content-pt');
+            const enContent = document.getElementById('content-en');
+            const buttons = document.querySelectorAll('.lang-btn');
+
+            buttons.forEach(btn => btn.classList.remove('active'));
+
+            if (lang === 'pt') {
+                ptContent.style.display = 'block';
+                enContent.style.display = 'none';
+                buttons[0].classList.add('active');
+            } else {
+                ptContent.style.display = 'none';
+                enContent.style.display = 'block';
+                buttons[1].classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
