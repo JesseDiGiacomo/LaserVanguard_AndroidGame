@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Remix: Batalha Espacial Retro</string>
-    <string name="title_activity_main">Remix: Batalha Espacial Retro</string>
-    <string name="package_name">com.batalha.espacial.retro</string>
-    <string name="custom_url_scheme">com.batalha.espacial.retro</string>
+    <string name="app_name">Laser Vanguard</string>
+    <string name="title_activity_main">Laser Vanguard</string>
+    <string name="package_name">com.silvajesse.batalhaespacial</string>
+    <string name="custom_url_scheme">com.silvajesse.batalhaespacial</string>
 </resources>

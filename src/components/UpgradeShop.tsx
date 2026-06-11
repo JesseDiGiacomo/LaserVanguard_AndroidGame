@@ -79,7 +79,7 @@ export function UpgradeShop({
   };
 
   return (
-    <div className="absolute inset-0 z-40 flex flex-col bg-zinc-950/20 p-6 overflow-y-auto font-mono select-none text-zinc-300">
+    <div className="absolute inset-0 z-40 flex flex-col bg-zinc-950/20 px-8 py-6 overflow-y-auto font-mono select-none text-zinc-300">
       {/* Top Header */}
       <div className="flex flex-col gap-3 items-center justify-between border-b border-zinc-800 pb-4 mb-6">
         <button

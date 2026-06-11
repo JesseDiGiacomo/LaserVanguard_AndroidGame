@@ -56,7 +56,7 @@ export function MainMenu({
   };
 
   return (
-    <div className="absolute inset-0 z-30 flex flex-col items-center justify-between bg-zinc-950/20 p-6 font-mono select-none overflow-y-auto text-zinc-300">
+    <div className="absolute inset-0 z-30 flex flex-col items-center justify-between bg-zinc-950/20 px-8 py-6 font-mono select-none overflow-y-auto text-zinc-300">
       
       {/* Decorative starry parallax sky backing */}
       <div className="absolute inset-0 opacity-20 pointer-events-none overflow-hidden">

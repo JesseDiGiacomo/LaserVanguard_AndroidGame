@@ -2391,22 +2391,22 @@ export function GameBoard({
       {/* Absolute Game Canvas Container */}
       <div 
         ref={containerRef}
-        className="relative w-full h-full max-w-[600px] max-h-[900px] aspect-[2/3] flex items-center justify-center overflow-hidden"
+        className="relative w-full h-full flex items-center justify-center overflow-hidden"
       >
         <canvas
           ref={canvasRef}
           width={logicalWidth}
           height={logicalHeight}
-          className="w-full h-full object-contain cursor-crosshair"
+          className="w-full h-full cursor-crosshair"
           id="shmup-canvas"
         />
 
         {/* ======================================================= */}
-        // GRAPHICS OVERLAY HUD LAYER (Renders directly above canvas)
+        {/* GRAPHICS OVERLAY HUD LAYER (Renders directly above canvas) */}
         {/* ======================================================= */}
         
         {/* Top Header Panel (Score, Stage, Coins) */}
-        <div className="absolute top-0 inset-x-0 p-3 flex items-center justify-between pointer-events-none select-none z-10 font-mono text-xs text-slate-100 bg-gradient-to-b from-black/80 to-transparent">
+        <div className="absolute top-0 inset-x-0 px-6 py-3 flex items-center justify-between pointer-events-none select-none z-10 font-mono text-xs text-slate-100 bg-gradient-to-b from-black/80 to-transparent">
           
           {/* Active Score */}
           <div className="flex flex-col">
@@ -2434,7 +2434,7 @@ export function GameBoard({
         </div>
 
         {/* Bottom Panel (Player Hull/Shield Bars & Threat level indicator) */}
-        <div className="absolute bottom-0 inset-x-0 p-3 flex flex-col gap-2 pointer-events-none select-none z-10 bg-gradient-to-t from-black/80 to-transparent">
+        <div className="absolute bottom-0 inset-x-0 px-6 py-3 flex flex-col gap-2 pointer-events-none select-none z-10 bg-gradient-to-t from-black/80 to-transparent">
           
           {/* Stage progression indicator */}
           {!bossActive && (

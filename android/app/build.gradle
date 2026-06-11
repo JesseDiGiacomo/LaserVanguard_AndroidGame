@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace = "com.batalha.espacial.retro"
+    namespace = "com.silvajesse.batalhaespacial"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.batalha.espacial.retro"
+        applicationId "com.silvajesse.batalhaespacial"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

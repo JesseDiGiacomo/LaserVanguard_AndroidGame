@@ -19,6 +19,7 @@ buildscript {
 apply from: "variables.gradle"
 
 allprojects {
+    buildDir = new File("C:/GradleBuilds/LaserVanguard_AndroidGame/" + project.name)
     repositories {
         google()
         mavenCentral()

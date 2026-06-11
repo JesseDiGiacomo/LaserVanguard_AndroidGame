@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.batalha.espacial.retro',
+  appId: 'com.silvajesse.batalhaespacial',
   appName: 'Remix: Batalha Espacial Retro',
   webDir: 'dist',
   server: {
